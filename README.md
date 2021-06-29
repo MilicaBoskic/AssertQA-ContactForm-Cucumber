@@ -3,7 +3,7 @@
 
 <b>TEST CASES</b>
 
-- <i>[AssertQA] - Contact form validation	</i>
+- <i>[AssertQA] - Contact form validation	- valid inputs</i>
 
 1) Navigate to "https://assertqa.com/"
 2) Click on the "CONTACT US" button
@@ -15,11 +15,11 @@
 Expected result: The "Thank You! Your message has been sent." message is displayed.
 
 
-- <i>[AssertQA] - Contact form validation	</i>
+- <i>[AssertQA] - Contact form validation	- "Full Name" field empty</i>
 
 1) Navigate to "https://assertqa.com/"
 2) Click on the "CONTACT US" button
-3) Leave the "Full Name" field empty"Full Name"
+3) Leave the "Full Name" field empty"
 4) In the "Email" field enter "jjovanovictest@gmail.com"
 5) In the "Message" field enter "Test"
 6) Click on the "SEND MESSAGE" button
@@ -27,7 +27,7 @@ Expected result: The "Thank You! Your message has been sent." message is display
 Expected result: The "Invalid name" message is displayed.
 
 
-- <i>[AssertQA] - Contact form validation</i>
+- <i>[AssertQA] - Contact form validation- "Email" field empty</i>
 
 1) Navigate to "https://assertqa.com/"
 2) Click on the "CONTACT US" button
@@ -39,7 +39,7 @@ Expected result: The "Invalid name" message is displayed.
 Expected result: The "Incorrect mail" message is displayed.
 
 
-- <i>[AssertQA] - Contact form validation</i>
+- <i>[AssertQA] - Contact form validation - "Message" field empty</i>
 
 1) Navigate to "https://assertqa.com/"
 2) Click on the "CONTACT US" button
