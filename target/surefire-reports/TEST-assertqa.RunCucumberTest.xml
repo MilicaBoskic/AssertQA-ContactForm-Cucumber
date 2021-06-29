@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="4" failures="4" name="assertqa.RunCucumberTest" time="15.024" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="java.vm.version" value="16.0.1+9-24"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:\Users\milic\Desktop\AssertQA\assertqa"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\milic\Desktop\AssertQA\assertqa"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="java.runtime.version" value="16.0.1+9-24"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\milic\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.8.1\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-16.0.1\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Program Files\apache-maven-3.8.1/bin;."/>
+    <property name="maven.conf" value="C:\Program Files\apache-maven-3.8.1\bin\../conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="60.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:\Program Files\apache-maven-3.8.1\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\milic"/>
+    <property name="user.timezone" value="Europe/Belgrade"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.specification.version" value="16"/>
+    <property name="user.name" value="milic"/>
+    <property name="java.class.path" value="C:\Program Files\apache-maven-3.8.1\bin\..\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="16"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher test"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-16.0.1"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="16.0.1"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="maven.home" value="C:\Program Files\apache-maven-3.8.1\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2021-04-20"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="Contact us form" name="Sending a message via Contact us form #1" time="5.396">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ✽.I should be told &quot;Thank You! Your message has been sent.&quot;(classpath:assertqa/contact_us.feature:11)
+</failure>
+    <system-out>
+Scenario Outline: Sending a message via Contact us form          &amp;#27;[90m# assertqa/contact_us.feature:16&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on homepage&amp;#27;[0m                                         &amp;#27;[90m# assertqa.StepDefinitions.iAmOnHomepage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on the CONTACT US button&amp;#27;[0m                          &amp;#27;[90m# assertqa.StepDefinitions.iClickOnCONTACTUSButton()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Jovan Jovanovic&quot;&amp;#27;[0m&amp;#27;[32m in Full Name field&amp;#27;[0m               &amp;#27;[90m# assertqa.StepDefinitions.iEnterInFullNameField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;jjovanovictest@gmail.com&quot;&amp;#27;[0m&amp;#27;[32m in Email field&amp;#27;[0m          &amp;#27;[90m# assertqa.StepDefinitions.iEnterInEmailField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Test&quot;&amp;#27;[0m&amp;#27;[32m in Message field&amp;#27;[0m                            &amp;#27;[90m# assertqa.StepDefinitions.iEnterInMessageField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on the SEND MESSAGE button&amp;#27;[0m                         &amp;#27;[90m# assertqa.StepDefinitions.iClickOnTheSENDMESSAGEButton()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI should be told &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Thank You! Your message has been sent.&quot;&amp;#27;[0m &amp;#27;[90m# assertqa.StepDefinitions.iShouldBeTold(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at âœ½.I should be told &quot;Thank You! Your message has been sent.&quot;(classpath:assertqa/contact_us.feature:11)
+&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 33952
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 11:32:10 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Contact us form" name="Sending a message via Contact us form #2" time="3.331">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ✽.I should be told &quot;Invalid name&quot;(classpath:assertqa/contact_us.feature:11)
+</failure>
+    <system-out>
+Scenario Outline: Sending a message via Contact us form &amp;#27;[90m# assertqa/contact_us.feature:17&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on homepage&amp;#27;[0m                                &amp;#27;[90m# assertqa.StepDefinitions.iAmOnHomepage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on the CONTACT US button&amp;#27;[0m                 &amp;#27;[90m# assertqa.StepDefinitions.iClickOnCONTACTUSButton()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;&quot;&amp;#27;[0m&amp;#27;[32m in Full Name field&amp;#27;[0m                     &amp;#27;[90m# assertqa.StepDefinitions.iEnterInFullNameField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;jjovanovictest@gmail.com&quot;&amp;#27;[0m&amp;#27;[32m in Email field&amp;#27;[0m &amp;#27;[90m# assertqa.StepDefinitions.iEnterInEmailField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Test&quot;&amp;#27;[0m&amp;#27;[32m in Message field&amp;#27;[0m                   &amp;#27;[90m# assertqa.StepDefinitions.iEnterInMessageField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on the SEND MESSAGE button&amp;#27;[0m                &amp;#27;[90m# assertqa.StepDefinitions.iClickOnTheSENDMESSAGEButton()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI should be told &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Invalid name&quot;&amp;#27;[0m                  &amp;#27;[90m# assertqa.StepDefinitions.iShouldBeTold(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at âœ½.I should be told &quot;Invalid name&quot;(classpath:assertqa/contact_us.feature:11)
+&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 31287
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 11:32:14 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Contact us form" name="Sending a message via Contact us form #3" time="3.064">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ✽.I should be told &quot;Incorrect mail&quot;(classpath:assertqa/contact_us.feature:11)
+</failure>
+    <system-out>
+Scenario Outline: Sending a message via Contact us form &amp;#27;[90m# assertqa/contact_us.feature:18&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on homepage&amp;#27;[0m                                &amp;#27;[90m# assertqa.StepDefinitions.iAmOnHomepage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on the CONTACT US button&amp;#27;[0m                 &amp;#27;[90m# assertqa.StepDefinitions.iClickOnCONTACTUSButton()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Jovan Jovanovic&quot;&amp;#27;[0m&amp;#27;[32m in Full Name field&amp;#27;[0m      &amp;#27;[90m# assertqa.StepDefinitions.iEnterInFullNameField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;&quot;&amp;#27;[0m&amp;#27;[32m in Email field&amp;#27;[0m                         &amp;#27;[90m# assertqa.StepDefinitions.iEnterInEmailField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Test&quot;&amp;#27;[0m&amp;#27;[32m in Message field&amp;#27;[0m                   &amp;#27;[90m# assertqa.StepDefinitions.iEnterInMessageField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on the SEND MESSAGE button&amp;#27;[0m                &amp;#27;[90m# assertqa.StepDefinitions.iClickOnTheSENDMESSAGEButton()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI should be told &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Incorrect mail&quot;&amp;#27;[0m                &amp;#27;[90m# assertqa.StepDefinitions.iShouldBeTold(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at âœ½.I should be told &quot;Incorrect mail&quot;(classpath:assertqa/contact_us.feature:11)
+&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 11945
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 11:32:17 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+  <testcase classname="Contact us form" name="Sending a message via Contact us form #4" time="3.233">
+    <failure type="java.lang.AssertionError">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ✽.I should be told &quot;Oops! There was a problem with your submission. Please complete the form and try again.&quot;(classpath:assertqa/contact_us.feature:11)
+</failure>
+    <system-out>
+Scenario Outline: Sending a message via Contact us form                                                           &amp;#27;[90m# assertqa/contact_us.feature:19&amp;#27;[0m
+  &amp;#27;[32mGiven &amp;#27;[0m&amp;#27;[32mI am on homepage&amp;#27;[0m                                                                                          &amp;#27;[90m# assertqa.StepDefinitions.iAmOnHomepage()&amp;#27;[0m
+  &amp;#27;[32mWhen &amp;#27;[0m&amp;#27;[32mI click on the CONTACT US button&amp;#27;[0m                                                                           &amp;#27;[90m# assertqa.StepDefinitions.iClickOnCONTACTUSButton()&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;Jovan Jovanovic&quot;&amp;#27;[0m&amp;#27;[32m in Full Name field&amp;#27;[0m                                                                &amp;#27;[90m# assertqa.StepDefinitions.iEnterInFullNameField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;jjovanovictest@gmail.com&quot;&amp;#27;[0m&amp;#27;[32m in Email field&amp;#27;[0m                                                           &amp;#27;[90m# assertqa.StepDefinitions.iEnterInEmailField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI enter &amp;#27;[0m&amp;#27;[32m&amp;#27;[1m&quot;&quot;&amp;#27;[0m&amp;#27;[32m in Message field&amp;#27;[0m                                                                                 &amp;#27;[90m# assertqa.StepDefinitions.iEnterInMessageField(java.lang.String)&amp;#27;[0m
+  &amp;#27;[32mAnd &amp;#27;[0m&amp;#27;[32mI click on the SEND MESSAGE button&amp;#27;[0m                                                                          &amp;#27;[90m# assertqa.StepDefinitions.iClickOnTheSENDMESSAGEButton()&amp;#27;[0m
+  &amp;#27;[31mThen &amp;#27;[0m&amp;#27;[31mI should be told &amp;#27;[0m&amp;#27;[31m&amp;#27;[1m&quot;Oops! There was a problem with your submission. Please complete the form and try again.&quot;&amp;#27;[0m &amp;#27;[90m# assertqa.StepDefinitions.iShouldBeTold(java.lang.String)&amp;#27;[0m
+      &amp;#27;[31mjava.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at âœ½.I should be told &quot;Oops! There was a problem with your submission. Please complete the form and try again.&quot;(classpath:assertqa/contact_us.feature:11)
+&amp;#27;[0m
+</system-out>
+    <system-err>Starting ChromeDriver 91.0.4472.101 (af52a90bf87030dd1523486a1cd3ae25c5d76c9b-refs/branch-heads/4472@{#1462}) on port 38866
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Jun 28, 2021 11:32:21 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+</system-err>
+  </testcase>
+</testsuite>

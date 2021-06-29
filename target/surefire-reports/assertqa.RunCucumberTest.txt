@@ -1,0 +1,36 @@
+-------------------------------------------------------------------------------
+Test set: assertqa.RunCucumberTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 4, Errors: 0, Skipped: 0, Time elapsed: 15.556 sec <<< FAILURE!
+Sending a message via Contact us form #1(Contact us form)  Time elapsed: 5.396 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ?.I should be told "Thank You! Your message has been sent."(classpath:assertqa/contact_us.feature:11)
+
+Sending a message via Contact us form #2(Contact us form)  Time elapsed: 3.331 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ?.I should be told "Invalid name"(classpath:assertqa/contact_us.feature:11)
+
+Sending a message via Contact us form #3(Contact us form)  Time elapsed: 3.064 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ?.I should be told "Incorrect mail"(classpath:assertqa/contact_us.feature:11)
+
+Sending a message via Contact us form #4(Contact us form)  Time elapsed: 3.233 sec  <<< FAILURE!
+java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:87)
+	at org.junit.Assert.assertTrue(Assert.java:42)
+	at org.junit.Assert.assertTrue(Assert.java:53)
+	at assertqa.StepDefinitions.iShouldBeTold(StepDefinitions.java:114)
+	at ?.I should be told "Oops! There was a problem with your submission. Please complete the form and try again."(classpath:assertqa/contact_us.feature:11)
+
